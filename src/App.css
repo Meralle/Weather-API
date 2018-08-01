@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.weather-box {
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.container{
+
+  margin:0 auto;
+}
+
+.weather-description {
+  text-transform: capitalize;
+}
+
+.material-icons {
+  font-size: 1rem;
+}
+
+.etc {
+  color: grey;
+  font-weight: 400;
+  font-size: 1rem;
+}
+#cardtitle {
+  padding-left:2rem;
+  margin-left:18rem;
+
+}
+.card{
+  box-shadow: 0 2px 20px rgba(232,231,233,.45),0 2px 20px rgba(0,0,0,.45); 
+  width:20rem;
+}
+.btn{
+  margin-left:20rem;
+}
+#icon_prefix{
+  margin-left:18rem;
+  margin-top: 5rem;
+
+}
+body{
+  background: url('../src/weather1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
